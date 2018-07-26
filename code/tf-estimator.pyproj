@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b10b274c-387f-4c09-8798-243049162f0c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>example\estimator_test.py</StartupFile>
+    <StartupFile>example\premade_estimator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,8 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="example\custom_estimator.py" />
     <Compile Include="example\custom_estimator_test.py" />
     <Compile Include="example\estimator_test.py" />
+    <Compile Include="example\premade_estimator.py" />
     <Compile Include="main.py" />
   </ItemGroup>
   <ItemGroup>
